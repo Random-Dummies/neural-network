@@ -27,3 +27,4 @@ def feedNeuralNet(jsonPayload):
 	print(np.argmax(out_score))
 	out_score=np.asscalar(np.argmax(out_score))
 	return out_score
+
