@@ -1,7 +1,7 @@
 from __future__ import print_function
 import json
 def getScores(payload):
-    scoreDict = {"skills":0,"exp":0,"Crev":0,"CErev":0,"NeoApi":0}
+    scoreDict = {"skills":0,"experience":0,"CompanyReview":0,"CEOReview":0,"NeoApi":0}
     # JSON requires double-quotes, not single-quotes.
     payload = json.loads(payload)
     print(payload)
